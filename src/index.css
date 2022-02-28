@@ -76,6 +76,9 @@ img {
 .text-center {
   text-align: center;
 }
+.lower-text {
+  display: none;
+}
 
 .text-primary {
   color: var(--primary-color);
@@ -127,6 +130,10 @@ img {
   background-color: var(--white-color);
   border: 1px solid var(--border-colour);
   color: var(--dark-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .card-text {
   margin: 1rem 0;
